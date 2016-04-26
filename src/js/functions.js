@@ -27,7 +27,7 @@ function getData(typeInfo,url,pos) {
 			scorers = xmlToJson(xml);
 	});
 }
-
+s
 function getInfo(typeF,typeInfo) {
 
 	if(typeF == 'json' && typeInfo == 'matches') {
