@@ -1,5 +1,52 @@
 /* aftersave: lessc -x <self> > ../../dist/css/style.min.css */
 
 body {
-	background: red;
+	background: #000;
+}
+
+.site-container {
+	width: 1000px;
+	margin: 0 auto;
+	background: #FFF;
+	padding: 10px;
+}
+
+.site-tournament {
+	width: 500px;
+	margin: 0 auto;	
+}
+
+.site-tournament-matches {
+	margin: 0 auto;
+    padding: 5px 45px;
+}
+
+.site-tournament-match {
+	figure {
+		margin: 0;
+	}
+}
+
+.site-tournament-title {
+	text-align: center;	
+	text-transform: uppercase;
+}
+
+.site-match-team-escudo {
+	width: 18px;
+}
+
+.site-match-team {
+	width: 200px;
+	display: inline-block;
+}
+
+.site-match-team-goles {
+    float: right;
+    padding: 0px 5px;
+    border: 1px solid;
+    margin: 3px;
+    &.fLeft {
+		float: left;
+	}
 }
