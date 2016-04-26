@@ -27,7 +27,7 @@ function getData(typeInfo,url,pos) {
 			scorers = xmlToJson(xml);
 	});
 }
-s
+
 function getInfo(typeF,typeInfo) {
 
 	if(typeF == 'json' && typeInfo == 'matches') {
@@ -89,5 +89,11 @@ function getInfo(typeF,typeInfo) {
 		}
 	}
 	return obj;
-};
+}
+
+function createMatches() {
+	$.each(fixture.fixture, function( index, value ) {	  
+		//http://data.bolavip.com/img/teams/31.gif
+	});	
+}
 
