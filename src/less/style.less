@@ -1,6 +1,7 @@
 /* aftersave: lessc -x <self> > ../../dist/css/style.min.css */
 
 body {
+	margin: 0;
 	background: #000;
 }
 
@@ -50,3 +51,25 @@ body {
 		float: left;
 	}
 }
+
+@media(max-width:768px){ 
+	.site-container {
+		width: 100%;
+		padding: 0;
+	}
+
+	.site-tournament {
+		padding: 0;
+		width: 95%;
+	}
+
+	.site-tournament-matches {
+		padding: 0;
+	}
+
+	.site-match-team {
+		font-size: 12px;
+		width: 150px;
+	}
+}
+
